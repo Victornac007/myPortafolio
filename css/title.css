@@ -1,0 +1,54 @@
+.title__div{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.title__profile{
+    width: 150px;
+    margin-right: 5%;
+    border-radius: 50%;
+}
+.title__container{
+    max-width: 500px;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.title__bio{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25.83px;
+}
+.title__subsection{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+.title__network{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.title__network__item{
+    display: flex;
+    align-items: center;
+    margin: .5rem .5rem .4rem .7rem;
+}
+.title__network__item a{
+    display: flex;
+    align-items: center;
+}
+.title__network__item a img{
+    margin-left: 0.3rem;
+}
+
+@media (min-width:700px){
+    .title__div{
+        flex-direction:row-reverse;
+        justify-content: space-evenly;
+    }
+}

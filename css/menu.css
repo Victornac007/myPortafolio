@@ -1,0 +1,37 @@
+.menu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu nav{
+    width: 50vw;
+    display: inline-flex;
+    align-self: flex-end;
+}
+.menu__header{
+    display: flex;
+}
+.menu__header img{
+    margin-top: 12px;
+    width: 20px;
+    height: 30px;
+}
+.menu__list{
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+}
+.menu__list__item{
+    margin: 10px;
+}
+@media(max-width: 1000px){
+    .menu__list .non{
+        display:none;
+    }
+    .contac{
+        display: inline;
+    }
+
+}
