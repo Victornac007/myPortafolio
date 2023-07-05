@@ -2,13 +2,34 @@
     min-width: 350px;
     width: 100vw;
     margin: 0 auto;
-    background: #EAF2FD;
+    background-image: url(../assets/bg-white2.jpg);
     display: flex;
     flex-direction: column;
-    margin-top: 2rem;
+    padding-bottom: 1rem;
+
 }
+.about__container{
+    padding: 1rem;
+    width: 80%;
+    margin: 0 auto;
+    backdrop-filter: blur(4px);
+    border-radius: 1rem;
+}
+
 .about__title{
+    display: flex;
     font-weight: 800;
     font-size: 22px;
-    line-height: 26px;
+    line-height: 30px;
+    transition: .6s;
+}
+.about__title:hover{
+    font-size: 1.8rem;
+}
+.about__paragraph{
+    font-family: 'Roboto', sans-serif;
+    transition: .6s;
+}
+.about__paragraph:hover{
+    font-size: 1.1rem;
 }
