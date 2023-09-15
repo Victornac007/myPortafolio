@@ -1,0 +1,11 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: center;
+}
+.footer__rodape{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

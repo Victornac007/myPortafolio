@@ -31,6 +31,11 @@
 .skills__img{
     transition: .6s;
 }
+.skills__img img{
+    max-width: 4rem;
+    max-height: 3rem;
+}
+
 .skills__img:hover{
     transform: scale(1.5) translateX(-10px) rotate(360deg); 
 }

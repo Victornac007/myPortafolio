@@ -23,3 +23,7 @@
     justify-content: flex-start;
     border-radius: 1rem;
 }
+.hobbies__img img{
+    max-width: 4rem;
+    max-height: 3rem;
+}
