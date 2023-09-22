@@ -26,7 +26,10 @@ a{
     text-decoration: none;
     color: var(--cor-de-link);
 }
-
+h2{
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
 /*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
 
 Lo que es el BEM?
@@ -43,40 +46,16 @@ body{
     width: 98%;
 }
 /*Sección Menu*/
-img{
-}
-/*Sección Hobbies*/
 
-section.hobbies{
-    
-}
+/*Sección Hobbies*/
 
 /* Experiencia Académica*/
 
-section.academic{
-
-}
-
 /* experiencia*/
-
-section.experience{
-
-}
 
 /*Contacto*/
 
-section.formcontato{
-
-}
-
 /*footeer*/
-
-section.footer{
-   
-}
-
-/* Vamos a desafiarnos trabajando con responsividad?
-Utiliza las referencias de los breakpoints @media abajo */
 
 
 /*Tablet*/

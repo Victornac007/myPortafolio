@@ -4,14 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonte del Proyecto Raleway -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title> Mi Portafolio</title>
     <!-- Referencia de la hoja de estilo de Css -->
     <link rel="icon" href="./assets/icons8-v-96.png">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Fonte del Proyecto Raleway -->
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
-    <title> Mi Portafolio</title>
     <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/title.css">
     <link rel="stylesheet" href="./css/about.css">
@@ -21,13 +28,8 @@
     <link rel="stylesheet" href="./css/experience.css">
     <link rel="stylesheet" href="./css/form.css">
     <link rel="stylesheet" href="./css/footer.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="./css/decorative.css">
+    
 </head>
 <body>
     <!-- Sección del Menú  -->
@@ -44,132 +46,166 @@
                 <li class="menu__list__item non"><a href="#hobbies">Hobbies</a></li>
                 <li class="menu__list__item non"><a href="#formacion">Formación</a></li>
                 <li class="menu__list__item non"><a href="#xp">Proyectos</a></li>
-                <li class="menu__list__item contact"><a href="#contacto">Contacto @victornac38.com</a></li>
+                <li class="menu__list__item contact"><a href="#contacto">Contactame</a></li>
             </ul>
         </nav>
     </section>
     <!-- Sección del Header/Title/Hero -->
-    <section class="title">
-        <div class="title__div">
-            <img class="title__profile" src="assets\profile.png">
-            <div class="title__container">
-                <h2 class="title__bio">Hola! mi nombre es Victor Herrera y construyo paginas web</h2>
-                <h3 class="title__subsection">Actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
-                <ul class="title__network">
-                     <!-- Pon los enlaces de tus redes sociales favoritas -->
-                    <li class="title__network__item"><a href="">Github <img src="assets\arrow.png"> </a></li>
-                    <li class="title__network__item"><a href="">Linkedin <img src="assets\arrow.png"></a></li>
-                    <li class="title__network__item"><a href="">Instagram <img src="assets\arrow.png"></a></li>
-                    <li class="title__network__item"><a href="">Currículo <img src="assets\arrow.png"></a></li>
-                </ul>
+    <section class="intro">
+        <section class="title">
+            <div class="title__div">
+                <div class="card card__perfil">
+                    <img class="title__profile" src="assets\profile.png">
+                    <div class="blob blob__perfil"></div>
+                </div>
+                <div class="title__container">
+                    <h2 class="title__bio">!Hola! mi nombre es Victor Herrera y construyo paginas web</h2>
+                    <h3 class="title__subsection">Actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
+                    <ul class="title__network">
+                         <!-- Pon los enlaces de tus redes sociales favoritas -->
+                        <li class="title__network__item"><a href="https://github.com/Victornac007">Github <img src="assets/maximizar.gif"> </a></li>
+                        <li class="title__network__item"><a href="https://www.linkedin.com/in/victor-ali-herrera-alvarado-b10290275/">Linkedin <img src="assets/maximizar.gif"></a></li>
+                        <li class="title__network__item"><a href="https://www.instagram.com/victornacherrera/">Instagram <img src="assets/maximizar.gif"></a></li>
+                        <li class="title__network__item"><a href="https://github.com/Victornac007">Currículo <img src="assets/maximizar.gif"></a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
+        </section>
+        
+        <!-- Sección sobre mi -->
+        <section class="about" id="sobre-mi">
+            <div class="about__container">
+                <h3 class="about__title">Sobre mi</h3>
+                <p class="about__paragraph">Como profesional en programación FrontEnd, he cultivado una serie de actitudes que considero fundamentales para trabajar de manera efectiva en equipo. Una de ellas es mi actitud proactiva y colaborativa, siempre dispuesto a escuchar y comprender las perspectivas de mis compañeros de equipo. Además, me destaco por mi habilidad para comunicarme de manera clara y efectiva, lo que facilita la colaboración y evita malentendidos.  </p>
+                <p class="about__paragraph">Mi flexibilidad y adaptabilidad también son rasgos que me caracterizan, ya que estoy dispuesto a ajustarme a las necesidades del equipo y aportar soluciones en momentos de desafío. Mi ética de trabajo impecable, junto con mi enfoque en la calidad y la eficiencia, me convierten en un colaborador valioso para cualquier proyecto de programación FrontEnd en el que participe.</p>
+                <!-- Si quieres, pon tú firma acá! -->
+                <img src="assets\signature.png">
+            </div>
+        </section>
     </section>
     
-    <!-- Sección sobre mi -->
-    <section class="about" id="sobre-mi">
-        <div class="about__container">
-            <h3 class="about__title">Sobre mi</h3>
-            <p class="about__paragraph">Como profesional en programación FrontEnd, he cultivado una serie de actitudes que considero fundamentales para trabajar de manera efectiva en equipo. Una de ellas es mi actitud proactiva y colaborativa, siempre dispuesto a escuchar y comprender las perspectivas de mis compañeros de equipo. Además, me destaco por mi habilidad para comunicarme de manera clara y efectiva, lo que facilita la colaboración y evita malentendidos.  </p>
-            <p class="about__paragraph">Mi flexibilidad y adaptabilidad también son rasgos que me caracterizan, ya que estoy dispuesto a ajustarme a las necesidades del equipo y aportar soluciones en momentos de desafío. Mi ética de trabajo impecable, junto con mi enfoque en la calidad y la eficiencia, me convierten en un colaborador valioso para cualquier proyecto de programación FrontEnd en el que participe.</p>
-            <!-- Si quieres, pon tú firma acá! -->
-            <img src="assets\signature.png">
-        </div>
-    </section>
 
     <!-- Sección de Skills -->
-    <section class="skills" id="skills">
-        <h3 class="skills__title">Skills</h3>
-            <div class="skills__line">
-                <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"><img src="assets/html.gif"></li>
-                        <li class="skills__name"> HTML 5</li>
-                    </ul>
-                </div>
-
-                <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"> <img src="assets/icon-javascript.gif" alt=""></li>
-                        <li class="skills__name">Javascript</li>
-                    </ul>
-                </div>
-
-                <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"> <img src="assets/fisica.gif" alt=""> </li>
-                        <li class="skills__name">React</li>
-                    </ul>
-                </div>
-
-                <div class="skills__box">
-                    <ul>
-                        <li class="skills__img"> <img src="assets/css.gif" alt=""> </li>
-                        <li class="skills__name">CSS</li>
-                    </ul>
-                </div>
-        </div>
-    </section>
-
-    <!-- Sección de Hobbies -->
-    <section class="hobbies" id="hobbies">
-        <h3 class="hobbies__title">Hobbies</h3>
-            <div class="hobbies__line">
-                <div class="hobbies__box">
-                    <ul>
-                        <li class="hobbies__img"><img src="assets/correr.gif"></li>
-                        <li class="hobbies__name"> correr</li>
-                    </ul>
-                </div>
-
-                <div class="hobbies__box">
-                    <ul>
-                        <li class="hobbies__img"> <img src="assets/piano.gif" alt=""></li>
-                        <li class="hobbies__name">Tocar piano</li>
-                    </ul>
-                </div>
-
-                <div class="hobbies__box">
-                    <ul>
-                        <li class="hobbies__img"> <img src="assets/camara.gif" alt=""></li>
-                        <li class="hobbies__name">Fotografía</li>
-                    </ul>
-                </div>
-
-                <div class="hobbies__box">
-                    <ul>
-                        <li class="hobbies__img"><img src="assets/libro-de-ciencia.gif" alt=""></li>
-                        <li class="hobbies__name">estudiar</li>
-                    </ul>
-                </div>
-
-                <div class="hobbies__box">
-                    <ul>
-                        <li class="hobbies__img"> <img src="assets/bol.gif" alt=""> </li>
-                        <li class="hobbies__name">Cocinar</li>
-                    </ul>
-                </div>
-        </div>
-    </section>
+    <div class="habilities">
+        <section class="skills" id="skills">
+            <h3 class="skills__title">Skills</h3>
+                <div class="skills__line">
+                    <div class="skills__box">
+                        <ul>
+                            <li class="skills__img"><img src="assets/html.gif"></li>
+                            <li class="skills__name"> HTML 5</li>
+                        </ul>
+                    </div>
+    
+                    <div class="skills__box">
+                        <ul>
+                            <li class="skills__img"> <img src="assets/icon-javascript.gif" alt=""></li>
+                            <li class="skills__name">Javascript</li>
+                        </ul>
+                    </div>
+    
+                    <div class="skills__box">
+                        <ul>
+                            <li class="skills__img"> <img src="assets/fisica.gif" alt=""> </li>
+                            <li class="skills__name">React</li>
+                        </ul>
+                    </div>
+    
+                    <div class="skills__box">
+                        <ul>
+                            <li class="skills__img"> <img src="assets/css.gif" alt=""> </li>
+                            <li class="skills__name">CSS</li>
+                        </ul>
+                    </div>
+            </div>
+        </section>
+    
+        <!-- Sección de Hobbies -->
+        <section class="hobbies" id="hobbies">
+            <h3 class="hobbies__title">Hobbies</h3>
+                <div class="hobbies__line">
+                    <div class="hobbies__box">
+                        <ul>
+                            <li class="hobbies__img"><img src="assets/correr.gif"></li>
+                            <li class="hobbies__name"> correr</li>
+                        </ul>
+                    </div>
+    
+                    <div class="hobbies__box">
+                        <ul>
+                            <li class="hobbies__img"> <img src="assets/piano.gif" alt=""></li>
+                            <li class="hobbies__name">Tocar piano</li>
+                        </ul>
+                    </div>
+    
+                    <div class="hobbies__box">
+                        <ul>
+                            <li class="hobbies__img"> <img src="assets/camara.gif" alt=""></li>
+                            <li class="hobbies__name">Fotografía</li>
+                        </ul>
+                    </div>
+    
+                    <div class="hobbies__box">
+                        <ul>
+                            <li class="hobbies__img"><img src="assets/libro-de-ciencia.gif" alt=""></li>
+                            <li class="hobbies__name">estudiar</li>
+                        </ul>
+                    </div>
+    
+                    <div class="hobbies__box">
+                        <ul>
+                            <li class="hobbies__img"> <img src="assets/bol.gif" alt=""> </li>
+                            <li class="hobbies__name">Cocinar</li>
+                        </ul>
+                    </div>
+            </div>
+        </section>
+    </div>
+    
 
         <!-- Sección de Formación académica -->
     <section class="academic" id="formacion">
         <h2 class="academic__title" >Formación académica</h2>
         <div class="academic__courses">
-            <div class="academic__courses__box">
-               
+
+            <div class="card">
+                <div class="bg">
+                    <div class="academic__courses__box">
+                        <ul class="academic__courses__list">
+                            <li class="academic__courses__item__img"><img src="assets\alura_logo.png"></li>
+                            <li class="academic__courses__item__title"><h4>programación web</h4></li>
+                            <li class="academic__courses__item__subtitle"><p>2020 - Alura</p></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="blob"></div>
+              </div>
+            
+            <div class="card">
+                <div class="bg">
+                    <div class="academic__courses__box">
+                        <ul class="academic__courses__list">
+                            <li class="academic__courses__item__img"><img src="assets\alura_logo.png"></li>
+                            <li class="academic__courses__item__title"><h4>Formación en UX Design</h4></li>
+                            <li class="academic__courses__item__subtitle"><p>2021 - Alura</p></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="blob"></div>
             </div>
-            <div class="academic__courses__box">
-                <ul class="academic__courses__list">
-                    <!--Pon el logotipo de la institución de formación -->
-                    <li class="academic__courses__item__img"><img src="assets\alura_logo.png"></li>
-                    <li class="academic__courses__item__title"><h4>Formación en UX Design</h4></li>
-                    <li class="academic__courses__item__subtitle"><p>2019 - Alura</p></li>
-                </ul>
+            <div class="card">
+                <div class="bg">
+                    <div class="academic__courses__box">
+                        <ul class="academic__courses__list">
+                            <li class="academic__courses__item__img"><img src="assets\alura_logo.png"></li>
+                            <li class="academic__courses__item__title"><h4>Formación en Desarrollo web</h4></li>
+                            <li class="academic__courses__item__subtitle"><p>2022 - Alura</p></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="blob"></div>
             </div>
-            <div class="academic__courses__box">
-                
-            </div>
+            
         </div>
     </section>
 
@@ -236,9 +272,8 @@
         <section class="formcontato" id="contacto">
             <div  class="formcontato__contacto">
                 <div class="formcontato__title">
-                    <h2 class="formcontato__title">Contacto</h2>
-                    <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
-                    <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
+                    <h2 class="formcontato__h2">Contacto</h2>
+                    <h3 class="formcontato__h3">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h>
                 </div>
                 <div class="formcontato__body">
                     <div class="formcontato--esquerda">
@@ -255,16 +290,12 @@
                     </div>
                 </div>
             </div>
-        </section>
-
         <!-- Sección de Footer -->
-        <section class="footer">
             <div class="footer__rodape">
                 <p>Desarrollado por Victor Herrera (VictoCode)</p>
                 <p>2023</p>
             </div>
         </section>
-
     </section>
  <!-- Script del documento JavaScript -->
 <script src="validacion.js"></script>

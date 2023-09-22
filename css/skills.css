@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
+    padding-bottom: 2rem;
 }
 .skills__title{
     align-self: center;
@@ -18,7 +19,7 @@
 .skills__box{
     display: flex;
     min-width: 140px;
-    background-color: rgb(234, 241, 241);
+    background-color: rgba(234, 241, 241, 0.747);
     justify-content: flex-start;
     border-radius: 1rem;
     transition: .8s;
@@ -39,9 +40,8 @@
 .skills__img:hover{
     transform: scale(1.5) translateX(-10px) rotate(360deg); 
 }
-.skills__name{
-
-}
-.skills__name:hover{
-
+.habilities{
+    background-image: url(../assets/1329894.png);
+    background-size: cover;
+    padding-bottom: 2rem;
 }
