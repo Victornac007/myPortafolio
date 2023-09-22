@@ -1,14 +1,17 @@
 .academic{
-    width: 90vw;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
     margin-top: 1rem;
+    background-color: #ffffff;
+    padding-bottom: 5rem;
 }
 .academic__title{
     display: flex;
     align-self: center;
+    padding: 1rem;
 }
 .academic__courses{
     display: flex;

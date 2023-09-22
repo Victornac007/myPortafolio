@@ -60,7 +60,10 @@ body{
 
 /*Tablet*/
 @media (min-width: 768px) {
-
+    h2{
+        font-size: 1.5rem;
+    }
+}
 /* Menú */
 
 /*title*/
@@ -72,11 +75,14 @@ body{
 /*Formación Académica*/
 
 /*Experiencia Profesional*/
-
+.experience__img{
+    min-width: 280px;
+    max-width: 550px;
+    width: 50vw;
 }
 
 /*Mobile*/
-@media (min-width: 425px) {
+@media (max-width: 426px) {
 
 /*Menu*/
 
@@ -85,15 +91,30 @@ body{
 /*Sección sobre mi*/
 
 /*Skills*/
-
+.video_1{
+    display: none;
+}
+.video_phone{
+    position: absolute;
+}
 /*Hobbies*/
  
 /*Formación Académica*/
-
+.academic__title{
+    margin-top: 30px;
+    background-color: #f5f5f5c0;
+    backdrop-filter: blur(15px);
+    padding: .5rem;
+    border-radius: 30%;
+}
 /*Experiencia Profesional*/
 
  /*Contacto*/
 
 /*Footer*/
-
+}
+@media (min-width: 427px){
+    .video_phone{
+        display: none;
+    }
 }

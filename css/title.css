@@ -9,6 +9,7 @@
     padding-top: 8rem;
 }
 .intro{
+    width: 100vw;
     background-image: url(../assets/macbook-air-1920x1080-abstract-blue-20843.jpg);
     background-size: cover;
     background-position: calc(10%);
@@ -22,7 +23,7 @@
 
 }
 .title__profile:hover{
-    transform: scale(.8);
+    transform: scale(.98);
 }
 .title__container{
     max-width: 490px;
