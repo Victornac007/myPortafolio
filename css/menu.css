@@ -1,5 +1,5 @@
 .menu{
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -37,15 +37,19 @@
     margin: 10px;
 }
 @media(max-width: 425px){
+    .menu{
+        justify-content: flex-start;
+    }
+    .menu__title{
+        font-size: .8rem;
+        text-align: center;
+    }
     .menu__list .non{
         font-size: .66rem;
     }
     .menu__list{
         width: 65%;
-        padding-left: 0;
-    }
-    .menu nav{
-        width: 100%;
+        padding-left: 10px;
     }
     .menu__header img{
         margin-top: 20px;
