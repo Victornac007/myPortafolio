@@ -10,7 +10,7 @@
 }
 .intro{
     width: 100vw;
-    background-image: url(../assets/macbook-air-1920x1080-abstract-blue-20843.jpg);
+    background-image: url(../assets/bg-white.jpg);
     background-size: cover;
     background-position: calc(10%);
 }
@@ -85,4 +85,7 @@
     }
 }
 @media (max-width:425px){
+    .intro{
+        background-image: url(../assets/bg-white2.jpg);
+    }
 }
