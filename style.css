@@ -113,7 +113,19 @@ body{
  /*Contacto*/
 
 /*Footer*/
+
 }
+@media(max-width:375px){
+    .video_phone{
+        position: absolute;
+        width: 100%;
+        transform: scale(1.1);
+        margin-top: 1.5rem;
+        z-index: -2;
+        overflow: hidden;
+    }
+}
+
 @media (min-width: 427px){
     .video_phone{
         display: none;

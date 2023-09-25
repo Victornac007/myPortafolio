@@ -51,14 +51,34 @@
         width: 65%;
         padding-left: 10px;
     }
+    .menu__header{
+        width: 6rem;
+        margin-right: 1rem;
+    }
     .menu__header img{
-        margin-top: 20px;
+        margin-top: 14px;
         margin-left: 0rem;
-        width: 45px;
-        height: 45px;
+        width: 40px;
+        height: 40px;
     }
     .menu__list__item{
         margin: 3px;
+    }
+}
+@media(max-width:375px){
+    .menu__title{
+        font-size: .7rem;
+    }
+    .menu__header img{
+        margin-top: 7px;
+        width: 40px;
+        height: 40px;
+    }
+    .menu__list .non{
+        font-size: .55rem;
+    }
+    .menu__header{
+        width: 6rem;
     }
 }
 @media(max-width: 768px){
